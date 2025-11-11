@@ -1,5 +1,6 @@
 #include <iostream>
 #include "FlexiEngine/Engine.h"
+#include "FlexiEngine/Logger.h"
 
 using namespace std;
 
@@ -47,12 +48,7 @@ bool checkDraw() {
     return true;
 }
 
-int main() {
-
-    cout << "Starting game..." << std::endl;
-
-    EngineStart(); // Aufruf der Engine-Funktion
-
+void startGame() {
     char player = 'X';
     int choice;
     int row, col;
@@ -92,8 +88,17 @@ int main() {
         // Spieler wechseln
         player = (player == 'X') ? 'O' : 'X';
     }
+}
 
-    cout << "Game finished!" << std::endl;
+int main() {
+
+    Logger::Log("Starting game...", LogLevel::Info);
+
+    EngineStart(); // Aufruf der Engine-Funktion
+
+    //startGame();
+
+    Logger::Log("Game finished!", LogLevel::Info);
 
     return 0;
 }

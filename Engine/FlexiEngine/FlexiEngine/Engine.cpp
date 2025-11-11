@@ -1,8 +1,9 @@
 #define FLEXIENGINE_EXPORTS
 #include "Engine.h"
+#include "Logger.h"
 #include <iostream>
 
 void EngineStart()
 {
-    std::cout << "Engine started successfully!" << std::endl;
+    Logger::Log("Engine started successfully!", LogLevel::Info);
 }
