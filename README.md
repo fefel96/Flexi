@@ -1,4 +1,4 @@
-# C++ Version Control & Game Engine Exercises
+# C++ Game Engine Exercises
 
 ## Exercise 1
 
