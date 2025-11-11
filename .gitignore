@@ -1,0 +1,37 @@
+# --- Visual Studio ---
+.vs/
+*.vcxproj.user
+*.suo
+*.user
+*.opendb
+*.VC.db
+
+# --- Build output ---
+/bin/
+/build/
+/out/
+/x64/
+/Debug/
+/Release/
+/ipch/
+
+# --- C++ compiler files ---
+*.obj
+*.pdb
+*.pch
+*.idb
+*.ilk
+*.exp
+*.lib
+*.dll
+*.exe
+*.log
+
+# --- Generated project files ---
+*.tlog
+*.cache
+
+# --- OS junk ---
+Thumbs.db
+Desktop.ini
+.DS_Store
