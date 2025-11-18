@@ -9,30 +9,30 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Engine\Events\ApplicationEvent.h">
+    <ClInclude Include="Events\ApplicationEvent.h">
       <Filter>Events</Filter>
     </ClInclude>
-    <ClInclude Include="Engine\Events\Event.h">
+    <ClInclude Include="Events\Event.h">
       <Filter>Events</Filter>
     </ClInclude>
-    <ClInclude Include="Engine\Events\KeyEvent.h">
+    <ClInclude Include="Events\KeyEvent.h">
       <Filter>Events</Filter>
     </ClInclude>
-    <ClInclude Include="Engine\Events\MouseEvent.h">
+    <ClInclude Include="Events\MouseEvent.h">
       <Filter>Events</Filter>
     </ClInclude>
-    <ClInclude Include="Engine\FlexiEngine\Engine.h">
+    <ClInclude Include="FlexiEngine\Engine.h">
       <Filter>FlexiEngine</Filter>
     </ClInclude>
-    <ClInclude Include="Engine\FlexiEngine\Logger.h">
+    <ClInclude Include="FlexiEngine\Logger.h">
       <Filter>FlexiEngine</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Engine\FlexiEngine\Engine.cpp">
+    <ClCompile Include="FlexiEngine\Engine.cpp">
       <Filter>FlexiEngine</Filter>
     </ClCompile>
-    <ClCompile Include="Engine\FlexiEngine\Logger.cpp">
+    <ClCompile Include="FlexiEngine\Logger.cpp">
       <Filter>FlexiEngine</Filter>
     </ClCompile>
   </ItemGroup>

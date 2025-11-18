@@ -5,6 +5,7 @@ workspace "FlexiEngine"
 
 -- Engine Project (DLL)
 project "Engine"
+   location "Engine"
    kind "SharedLib"
    language "C++"
    targetdir "bin/%{cfg.buildcfg}"
@@ -24,6 +25,7 @@ project "Engine"
 
 -- Game Project (Console App)
 project "Game"
+   location "Game"
    kind "ConsoleApp"
    language "C++"
    targetdir "bin/%{cfg.buildcfg}"
