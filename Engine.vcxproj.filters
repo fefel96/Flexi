@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Events">
+      <UniqueIdentifier>{3A8963B1-262B-8E87-0FE6-A1DBFB2615D8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FlexiEngine">
+      <UniqueIdentifier>{B39EC406-1F54-3DFC-A848-37D314FD3300}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Engine\Events\ApplicationEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Events\Event.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Events\KeyEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\Events\MouseEvent.h">
+      <Filter>Events</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FlexiEngine\Engine.h">
+      <Filter>FlexiEngine</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine\FlexiEngine\Logger.h">
+      <Filter>FlexiEngine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Engine\FlexiEngine\Engine.cpp">
+      <Filter>FlexiEngine</Filter>
+    </ClCompile>
+    <ClCompile Include="Engine\FlexiEngine\Logger.cpp">
+      <Filter>FlexiEngine</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

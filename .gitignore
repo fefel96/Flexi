@@ -8,9 +8,12 @@
 
 # --- Build output ---
 /bin/
+/bin-int/
 /build/
 /out/
 /x64/
+Engine/x64/
+Game/x64/
 /Debug/
 /Release/
 /ipch/
