@@ -58,3 +58,38 @@ A package manager automates the process of installing and configuring external l
 - **vcpkg**: Cross-platform package manager (Microsoft).  
 - **Conan**: Cross-platform package manager for large and complex projects.  
 - **Hunter**: CMake-driven package manager.
+
+---
+
+## Exercise 3
+
+### What is the difference between a dynamic linked library and a static library?
+
+- A dynamic linked library is loaded and executed at runtime. Multiple programs can use the same DLL and the executable files are smaller.
+
+- A static library is compiled directly into the executable, making the file larger. There are no external dependencies, and execution is generally faster.
+
+### Describe a logging system with your own words:
+
+An event system allows different parts of a program to communicate without directly knowing each other. One part create an event (an key was pressed) and other parts can listen for these and react to them.
+
+The main purpose is to decouple systems. This makes the architecture more flexible and easier to extend.
+
+
+### What is a Design Pattern?
+
+It's a reuseable solution for a common software-design-problem. It's a specification how to solve a problem.
+
+### Name and describe 2 Design Patterns (except façade or adapter):
+
+- Singleton:
+
+There is only one instance of a class.
+
+- Observer Pattern:
+
+A subject informs automatically more listeners about changes.
+
+- Factory:
+
+Provides a way to create objects without exposing the exact class name or constructor to the calling code.
